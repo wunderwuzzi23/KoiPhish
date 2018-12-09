@@ -9,24 +9,18 @@ Most web sites these days support multi factor authentication. KoiPish can be le
 
 Illustration
 
-                                                       Keep Relaying
-                                                       
-End User     +-------------------->    KoiPhish    +-------------------->    Actual Login Page
-
-                                                   <--------------------+     and MFA Provider
-                                                   
-                  Keep Relaying
-                  
-             +--------------------> 
+                                                             Keep Relaying                               
+      End User     +-------------------->    KoiPhish    +-------------------->    Actual Login Page
+                                                         <--------------------+     and MFA Provider
+                       Keep Relaying      
+                   +-------------------->  
+                   <--------------------+                           
              
-             <--------------------+                           
-             
-             
-                                              
 This keeps going until the final session token is grabbed by KoiPhish.
 
 Adjustments
+
 The code is very basic at this point. For a specific pen test scenarios most likely adjustments need to be made to request flow and query paths, etc. Over time more relay capabilites could be added.
 
 Notice
-Of course, only every leverage this when authorized by appropriate stakeholders. You are responsible for your own actions.
+Of course, only ever leverage this when authorized by appropriate stakeholders. You are responsible for your own actions.
