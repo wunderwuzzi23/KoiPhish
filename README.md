@@ -1,4 +1,4 @@
-# KoiPhish - the phishing proxy
+# KoiPhish - The Phishing Proxy
 
 A proxy to run effective phishing sites for adverserial emulation.
 
