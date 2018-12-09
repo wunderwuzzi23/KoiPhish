@@ -7,15 +7,22 @@ KoiPhish is a phishing proxy. It relays all requests a user makes to the KoiPish
 Why is this useful?
 Most web sites these days support multi factor authentication. KoiPish can be leveraged to seemlessly intergrate in the multi step flow,  continously relaying requests back and forth, and ultimatley gain access to a users session token.
 
+Illustration
 
-                                                       Keep Relaying 
+                                                       Keep Relaying
+                                                       
 End User     +-------------------->    KoiPhish    +-------------------->    Actual Login Page
-                                                   <--------------------+     and MFA Provider
-                  Keep Relaying
-             +--------------------> 
-             <--------------------+                           
-                                              
 
+                                                   <--------------------+     and MFA Provider
+                                                   
+                  Keep Relaying
+                  
+             +--------------------> 
+             
+             <--------------------+                           
+             
+             
+                                              
 This keeps going until the final session token is grabbed by KoiPhish.
 
 Adjustments
