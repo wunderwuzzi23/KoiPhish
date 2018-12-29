@@ -16,9 +16,11 @@ Most web sites these days support multi factor authentication. KoiPish can integ
              
 This keeps going until the passwords and/or session tokens (after 2FA) are grabbed by KoiPhish.
 
+
 ## Adjustments
 
 For actual pentesting more adjustments need to be made, like configuring target, etc. The code is not "point and click".
+
 
 ## Mitigation
 
