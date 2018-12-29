@@ -9,10 +9,10 @@ Illustration
 
                                                              Keep Relaying                               
       End User     +-------------------->    KoiPhish    +-------------------->    Actual Login Page
-                                                         <--------------------+     and MFA Provider
+                                                         <--------------------+    
                        Keep Relaying      
-                   +-------------------->  
-                   <--------------------+                           
+                   +-------------------->                +-------------------->     and MFA Provider
+                   <--------------------+                <--------------------+           
              
 This keeps going until the passwords and (better) session tokens after 2FA are grabbed by KoiPhish.
 
@@ -28,6 +28,7 @@ https://fidoalliance.org/fido2/
 https://en.wikipedia.org/wiki/WebAuthn
 
 
-Notice and Disclaimer
+Disclaimer
 
 Pentesting requires authorization by appropriate stakeholders. Do not do illegal things. You are responsible for your own actions.
+
