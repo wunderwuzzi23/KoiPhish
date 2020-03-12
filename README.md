@@ -1,5 +1,16 @@
 # KoiPhish - The Phishing Proxy
 
+
+  _  __     _ ____  _     _     _              /`·.¸
+ | |/ /___ (_)  _ \| |__ (_)___| |__          /¸...¸`:·
+ | ' // _ \| | |_) | '_ \| / __| '_ \    ¸.·´  ¸    `·.¸.·´)
+ | . \ (_) | |  __/| | | | \__ \ | | |  : © ) ´;      ¸  {
+ |_|\_\___/|_|_|   |_| |_|_|___/_| |_|   ·.      ¸.·´\  `·¸)
+                                           ``\\´´\¸¸.·´
+
+             .................................................. KoiPhish started.
+             
+
 KoiPhish is a simple yet beautiful phishing proxy idea. It relays requests a client makes to the KoiPish to the actual target and responses are sent back to the client. On the way in and out common links are overwritten in order to not break the user experience and functionality. The benefit of this approach compared to cloning a website is that it will have the same look and feel as the target, and automatically adjust to changes down the road. The code is very basic at this point. I'm using it to learn Golang. 
 
 ## Illustration
@@ -29,4 +40,6 @@ https://en.wikipedia.org/wiki/WebAuthn
 ## Disclaimer
 
 Pentesting requires authorization and consent by appropriate stakeholders. Do not do illegal things. You are responsible for your own actions.
+
+
 
