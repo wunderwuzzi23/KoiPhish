@@ -36,8 +36,9 @@ For actual pentesting more adjustments need to be made, like configuring target,
 ## Mitigation
 
 Leverage security keys and U2F to help mitigate phishing attacks. Learn more here:
-https://fidoalliance.org/fido2/
-https://en.wikipedia.org/wiki/WebAuthn
+
+* https://fidoalliance.org/fido2/
+* https://en.wikipedia.org/wiki/WebAuthn
 
 ## Disclaimer
 
