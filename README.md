@@ -1,6 +1,8 @@
 # KoiPhish - The Phishing Proxy
 
-KoiPhish is a simple yet beautiful phishing proxy idea. It relays requests a client makes to the KoiPish to the actual target and responses are sent back to the client. On the way in and out common links are overwritten in order to not break the user experience and functionality. The benefit of this approach compared to cloning a website is that it will have the same look and feel as the target, and automatically adjust to changes down the road. The code published here shows the basic framework, and it is intentionally not point and click.
+KoiPhish is a simple yet beautiful phishing proxy idea. It relays requests a client makes to the KoiPish to the actual target and responses are sent back to the client. On the way in and out common links are overwritten in order to not break the user experience and functionality. The benefit of this approach compared to cloning a website is that it will have the same look and feel as the target, and automatically adjust to changes down the road. 
+
+The code published here shows the basic framework and methodology, and it is intentionally not point and click.
 
 
 ```
