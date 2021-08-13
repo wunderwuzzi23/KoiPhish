@@ -43,6 +43,3 @@ Leverage security keys and U2F to help mitigate phishing attacks. Learn more her
 ## Disclaimer
 
 Pentesting requires authorization and consent by appropriate stakeholders. Do not do illegal things. You are responsible for your own actions.
-
-
-
